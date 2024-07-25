@@ -14,8 +14,6 @@ const Footer = () => {
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
                 corporis, maxime ullam ducimus similique recusandae deleniti!
-                Maxime nesciunt voluptate facilis beatae id veritatis, atque
-                officia fuga, ad nemo facere deserunt?
               </p>
             </div>
           </div>

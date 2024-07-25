@@ -35,7 +35,7 @@ const Menu = () => {
 
   return (
     <nav
-      className={`menu w-full h-[60px] md:h-[80px] bg-[#141314] flex items-center justify-between z-50 sticky top-0 transition-transform duration-300 ${show}`}
+      className={`menu w-full h-[60px] md:h-[80px] bg-[#141314] flex items-center justify-between z-[999] sticky top-0 transition-transform duration-300 ${show}`}
     >
       <Wrapper className="h-[60px] flex items-center justify-between">
         <Link to="/">
