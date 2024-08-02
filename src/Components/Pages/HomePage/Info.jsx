@@ -1,4 +1,4 @@
-import { CardRotate } from "./CardRotate";
+import { CardRotate } from "../../ui/CardRotate";
 
 /* eslint-disable react/no-unescaped-entities */
 const Info = () => {

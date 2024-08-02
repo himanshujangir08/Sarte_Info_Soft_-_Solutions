@@ -9,7 +9,7 @@ const MenuDesktop = () => {
   const data = [
     { id: 1, name: "Home", url: "/" },
     { id: 2, name: "Blog", url: "/blog" },
-    { id: 3, name: "Product", url: "/product" },
+    { id: 3, name: "Product", url: "/products" },
     { id: 4, name: "Contact-Us", url: "/contact-us" },
     { id: 5, name: "Knowledge", url: "/knowledge" },
   ];

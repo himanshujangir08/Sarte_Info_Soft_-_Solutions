@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Wrapper from "../../Wrapper";
-import { CardRotate } from "./CardRotate";
+import { CardRotate } from "../../ui/CardRotate";
 
 const WhyChoose = () => {
   return (
