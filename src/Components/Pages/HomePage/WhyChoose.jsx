@@ -21,21 +21,23 @@ const WhyChoose = () => {
             whileInView={{ width: "8%", opacity: 1 }}
             viewport={{ once: true }}
             transition={{ ease: [0.22, 1, 0.36, 1], duration: 1.2 }}
-            className="sm:border-2 border-[1.5px] border-[#18dae4] w-0 sm:mb-5 rounded-md"
+            className="sm:border-2 border-[1.5px] border-[#18dae4] w-0 rounded-md"
           ></motion.span>
         </h1>
       </Wrapper>
-      <div className="grid lg:grid-cols-2 items-center overflow-y-auto overflow-x-hidden gap-5">
+      <div className="grid lg:grid-cols-2 items-center overflow-y-auto overflow-x-hidden gap-5 -mt-10">
         <div className="lg:block hidden">
-          <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mb-5">
-            Trusted Over 4000+ Clients
-          </h2>
-          <p className="mb-10">
-            Welcome to Marvellous Mining, where your financial goals become our
-            priority. As a leading investment management service, we specialize
-            in delivering exceptional investment experiences tailored to your
-            needs. With a commitment to integrity and responsibility, we handle
-            your hard-earned money with the utmost care.
+          <p className="mb-10 text-xl font-semibold">
+            Welcome to Sarte Infosoft & Solution, where your financial
+            aspirations are our foremost concern. As a premier investment
+            management service, we excel in providing outstanding investment
+            experiences tailored to your unique requirements. With a steadfast
+            commitment to integrity and accountability, we manage your
+            Investment Amount with exceptional care. We don’t just make
+            promises; we deliver results, focusing relentlessly on the growth of
+            your investments. At Sarte Infosoft & Solution, we view ourselves as
+            a family, dedicated to supporting and nurturing your financial
+            journey every step of the way.
           </p>
           <div className="mb-5 sm:text-2xl text-xl">
             <p>🗸 Professionally Loaded Team</p>
@@ -44,7 +46,7 @@ const WhyChoose = () => {
             <p>🗸 We are Fully Bonded and Insured</p>
           </div>
           <button className="bg-[#18dae4] text-black font-medium py-2 px-4 rounded transition-all hover:bg-[#0b9198] hover:text-white active:scale-95">
-            Find a class
+            Registration
           </button>
         </div>
         <div className="">

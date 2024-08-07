@@ -24,7 +24,7 @@ export default function MakeEarnCard() {
               {feature.price}
             </h2>
             <button className="bg-[#18dae4] text-black font-medium py-2 px-4 rounded transition-all hover:bg-[#0b9198] hover:text-white active:scale-95">
-              Find a class
+              Buy Now
             </button>
             <p className="text-neutral-400 mt-8 gap-5 flex flex-col text-base font-normal relative z-20">
               <span>{feature.desc1}</span>
@@ -40,24 +40,24 @@ export default function MakeEarnCard() {
 const grid = [
   {
     icon: <TiLocationArrowOutline />,
-    title: "Basic Plan",
-    price: "₹ 1,000-49,999",
-    desc1: "🗸Assured Monthly 3.08%",
-    desc2: "🗸Assured Annual 37%",
+    title: "Primary plan",
+    price: "₹ 2,000 - 59,999",
+    desc1: "🗸Monthly Return 3.16%",
+    desc2: "🗸Annual  Return 38%",
   },
   {
     icon: <IoPaperPlaneOutline />,
-    title: "Master Plan",
-    price: "₹ 1,000-49,999",
-    desc1: "🗸Assured Monthly 3.08%",
-    desc2: "🗸Assured Annual 37%",
+    title: "Intermediate Plan",
+    price: "₹ 60,000 - 2,99,999",
+    desc1: "🗸Monthly Return  3.5%",
+    desc2: "🗸Annual  Return 42%",
   },
   {
     icon: <HiOutlineRocketLaunch />,
-    title: "ADVANCE PLAN",
-    price: "₹ 1,000-49,999",
-    desc1: "🗸Assured Monthly 3.08%",
-    desc2: "🗸Assured Annual 37%",
+    title: "Advance Plan",
+    price: "₹ 3,00,000 - 10,00,000",
+    desc1: "🗸Monthly Return  3.83%",
+    desc2: "🗸Annual  Return 46%",
   },
 ];
 

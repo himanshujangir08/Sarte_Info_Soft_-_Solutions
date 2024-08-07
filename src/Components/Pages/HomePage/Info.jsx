@@ -15,14 +15,15 @@ const Info = () => {
           We Aim To Be The Best Manager For Our Clients
         </h2>
         <p className=" font-light">
-          At Marvellous Mining, our main goal is to help you take control of
-          your financial future. We offer expert investment management services
-          to protect and grow your hard-earned money. We believe that everyone
-          deserves a chance to succeed financially, and we're committed to
-          helping you reach your goals.
+          We are focused on providing fixed returns to our clients. Our goal is
+          to offer better management of our clients' finances, helping them
+          achieve their financial objectives. We focus on safe and secure
+          investment opportunities to ensure the safety and stability of our
+          client's assets. We do not engage in any risky processes, ensuring
+          your funds remain protected at all times.
         </p>
         <h1 className="font-semibold md:text-3xl text-xl">
-          5+YEARS EXPERIENCE
+          3+YEARS EXPERIENCE
         </h1>
       </div>
     </div>

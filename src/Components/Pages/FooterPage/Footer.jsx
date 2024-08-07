@@ -1,5 +1,7 @@
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import Wrapper from "../../Wrapper";
+import PrivacyModal from "./PrivacyModal";
+import TermModal from "./TermModal";
 
 const Footer = () => {
   return (
@@ -100,14 +102,14 @@ const Footer = () => {
         {/* RIGHT START */}
 
         <div className="flex gap-2 md:gap-5 text-center md:text-left flex-wrap justify-center">
-          <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
+          <div className=" font-semibold text-white/[0.5] hover:text-white cursor-pointer">
             Guides
           </div>
-          <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-            Terms of Use
+          <div className="font-semibold text-white/[0.5] hover:text-white cursor-pointer">
+            <TermModal />
           </div>
-          <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer">
-            Privacy Policy
+          <div className=" font-semibold text-white/[0.5] hover:text-white cursor-pointer">
+            <PrivacyModal />
           </div>
         </div>
         {/* RIGHT END */}

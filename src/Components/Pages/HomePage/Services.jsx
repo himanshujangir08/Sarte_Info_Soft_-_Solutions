@@ -4,7 +4,7 @@ import Wrapper from "../../Wrapper";
 
 const Services = () => {
   return (
-    <div className="mt-[5em]">
+    <div className="lg:-mt-10">
       <Wrapper>
         <h1 className="flex flex-col items-center text-center justify-center sm:text-5xl text-3xl overflow-hidden">
           <motion.span
@@ -46,72 +46,72 @@ const Services = () => {
             </div>
 
             <h1 className="font-bold text-xl mb-4 relative z-50">
-              Saving Strategies
-            </h1>
-
-            <p className="font-normal text-base text-gray-400 mb-4 relative z-50">
-              Customized investment plans for all, catering to individual goals
-              and circumstances, whether novice or seasoned.
-            </p>
-            <Meteors number={20} />
-          </div>
-        </div>
-        <div className="w-full relative">
-          <div className="service relative shadow-xl px-4 py-4 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
-            <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="h-2 w-2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-                />
-              </svg>
-            </div>
-
-            <h1 className="font-bold text-xl mb-4 relative z-50">
-              Competitive Price
-            </h1>
-
-            <p className="font-normal text-base text-gray-400 mb-4 relative z-50">
-              Tailored investment plans for everyone, meeting unique goals and
-              circumstances, whether new or experienced.
-            </p>
-            <Meteors number={20} />
-          </div>
-        </div>
-        <div className="w-full relative">
-          <div className="service relative shadow-xl px-4 py-4 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
-            <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="h-2 w-2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
-                />
-              </svg>
-            </div>
-
-            <h1 className="font-bold text-xl mb-4 relative z-50">
               24/7 Support
             </h1>
 
             <p className="font-normal text-base text-gray-400 mb-4 relative z-50">
-              Dedicated financial experts provide guidance, answer questions,
-              and ensure your path to financial success.
+              Adaptable Solutions: Whether you are a beginner or a seasoned
+              investor, our plans are crafted to meet your needs.
+            </p>
+            <Meteors number={20} />
+          </div>
+        </div>
+        <div className="w-full relative">
+          <div className="service relative shadow-xl px-4 py-4 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+            <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="h-2 w-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+            </div>
+
+            <h1 className="font-bold text-xl mb-4 relative z-50">
+              Adaptable Solutions
+            </h1>
+
+            <p className="font-normal text-base text-gray-400 mb-4 relative z-50">
+              Adaptable Solutions: Whether you are a beginner or a seasoned
+              investor, our plans are crafted to meet your needs.
+            </p>
+            <Meteors number={20} />
+          </div>
+        </div>
+        <div className="w-full relative">
+          <div className="service relative shadow-xl px-4 py-4 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+            <div className="h-5 w-5 rounded-full border flex items-center justify-center mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="h-2 w-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
+                />
+              </svg>
+            </div>
+
+            <h1 className="font-bold text-xl mb-4 relative z-50">
+              Individualized Strategies
+            </h1>
+
+            <p className="font-normal text-base text-gray-400 mb-4 relative z-50">
+              We create investment plans specifically designed to align with
+              your unique goals and circumstances.
             </p>
             <Meteors number={20} />
           </div>

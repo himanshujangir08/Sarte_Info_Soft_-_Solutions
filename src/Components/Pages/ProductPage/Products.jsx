@@ -7,6 +7,7 @@ import ProductPlans from "./ProductPlans";
 import ProductService from "./ProductService";
 import ProductFaq from "./ProductFaq";
 import ProductReg from "./ProductReg";
+import ProductDesThree from "./ProductDesThree";
 
 const Products = () => {
   return (
@@ -49,6 +50,7 @@ const Products = () => {
         </div>
         <ProductDesOne />
         <ProductDesTwo />
+        <ProductDesThree />
         <ProductPlans />
         <ProductService />
         <ProductFaq />

@@ -3,7 +3,7 @@ import MakeEarnCard from "./MakeEarnCard";
 
 const EarnCard = () => {
   return (
-    <div className="md:mt-0 mt-[4em]">
+    <div className="mt-[5em]">
       <div className="flex flex-col items-center text-center justify-center overflow-hidden">
         <motion.span
           initial={{ y: "70%", opacity: 0 }}

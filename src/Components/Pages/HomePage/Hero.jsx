@@ -1,6 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import hero1 from "../../../assets/home/hero1.jpg"
+import hero2 from "../../../assets/home/hero2.jpg"
+import hero3 from "../../../assets/home/hero3.jpg"
+import hero4 from "../../../assets/home/hero4.jpg"
 
 const Hero = () => {
   return (
@@ -10,14 +14,16 @@ const Hero = () => {
           Better every day
         </span>
         <h1 className="text-4xl md:text-6xl font-semibold">
-          Lets change it up a bit
+          A Path to Exceptional Investment Growth
         </h1>
         <p className="text-base md:text-lg text-slate-300 my-4 md:my-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
-          error repellat voluptatibus ad.
+          Welcome to Sarte Infosoft & Solutions, where your financial
+          aspirations become reality. Our goal is to offer you exceptional
+          investment opportunities , Assisting you in reaching financial
+          independence no matter where you stand financially right now.
         </p>
         <button className="bg-[#18dae4] text-black font-medium py-2 px-4 rounded transition-all hover:bg-[#0b9198] hover:text-white active:scale-95">
-          Find a class
+          Registration
         </button>
       </div>
       <ShuffleGrid />
@@ -45,19 +51,19 @@ const shuffle = (array) => {
 const squareData = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    src: hero1,
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1510925758641-869d353cecc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    src: hero2,
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1629901925121-8a141c2a42f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    src: hero3,
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1580238053495-b9720401fd45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    src: hero4,
   },
 ];
 

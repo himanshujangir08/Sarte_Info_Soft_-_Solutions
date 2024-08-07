@@ -39,7 +39,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="sm:mt-0 mt-[4em]">
+    <div className="sm:-mt-6 mt-[4em]">
       <Wrapper>
         <div className="flex flex-col items-center text-center justify-center overflow-hidden">
           <motion.span

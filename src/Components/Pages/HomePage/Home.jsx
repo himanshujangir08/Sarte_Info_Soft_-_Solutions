@@ -15,8 +15,8 @@ const Home = () => {
         <Hero />
       </div>
       <Wrapper>
-        <Services />
         <Info />
+        <Services />
         <EarnCard />
         <Features />
         <WhyChoose />
