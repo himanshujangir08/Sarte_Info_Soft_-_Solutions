@@ -3,6 +3,7 @@ import { useId } from "react";
 import { TiLocationArrowOutline } from "react-icons/ti";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 import { HiOutlineRocketLaunch } from "react-icons/hi2";
+import CalEarn from "./CalEarn";
 
 export default function MakeEarnCard() {
   return (
@@ -32,6 +33,9 @@ export default function MakeEarnCard() {
             </p>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center items-center">
+        <CalEarn />
       </div>
     </div>
   );

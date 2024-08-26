@@ -3,7 +3,7 @@ import { CardRotate } from "../../ui/CardRotate";
 const ProductDesThree = () => {
   return (
     <div className="mt-[5em] w-full grid lg:grid-cols-2 grid-cols-1 lg:-mt-16">
-      <div className="sm:-mt-40 -mt-10">
+      <div className="-mt-44">
         <CardRotate />
       </div>
       <div className="mr-2 flex flex-col gap-5 sm:mt-0 -mt-40">

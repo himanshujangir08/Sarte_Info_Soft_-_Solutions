@@ -2,7 +2,7 @@ import { CardRotate } from '../../ui/CardRotate';
 
 const ProductDesTwo = () => {
   return (
-    <div className="grid lg:grid-cols-2 items-center overflow-y-auto overflow-x-hidden gap-5 lg:-mt-40">
+    <div className="grid lg:grid-cols-2 items-center overflow-y-auto overflow-x-hidden gap-5 lg:-mt-72">
       <div className="lg:block hidden">
         <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mb-5">
           Lorem ipsum dolor sit amet consectetur
@@ -23,10 +23,10 @@ const ProductDesTwo = () => {
           Find a class
         </button>
       </div>
-      <div className="">
+      <div className="lg:-mt-0 -mt-24">
         <CardRotate />
       </div>
-      <div className="lg:hidden block -mt-36">
+      <div className="lg:hidden block -mt-40">
         <h2 className="lg:text-4xl sm:text-3xl text-2xl font-semibold mb-5">
           Lorem ipsum dolor sit amet consectetur
         </h2>

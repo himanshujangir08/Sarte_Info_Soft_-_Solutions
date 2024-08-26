@@ -4,7 +4,7 @@ import Wrapper from "../../Wrapper";
 
 const Services = () => {
   return (
-    <div className="lg:-mt-10">
+    <div className="lg:-mt-10 mt-[3rem]">
       <Wrapper>
         <h1 className="flex flex-col items-center text-center justify-center sm:text-5xl text-3xl overflow-hidden">
           <motion.span

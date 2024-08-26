@@ -3,11 +3,11 @@ import { CardRotate } from "../../ui/CardRotate";
 /* eslint-disable react/no-unescaped-entities */
 const Info = () => {
   return (
-    <div className="mt-[5em] w-full grid lg:grid-cols-2 grid-cols-1">
-      <div className="sm:-mt-40 -mt-10">
+    <div className="mt-[1em] w-full grid lg:grid-cols-2 grid-cols-1">
+      <div className="-mt-40">
         <CardRotate />
       </div>
-      <div className="mr-2 flex flex-col gap-5 sm:mt-0 -mt-40">
+      <div className="mr-2 flex flex-col gap-5 lg:-mt-[0rem] -mt-[16rem]">
         <h1 className=" text-[#18dae4] font-semibold text-3xl lg:mb-3 mt-4">
           WHO WE ARE
         </h1>
